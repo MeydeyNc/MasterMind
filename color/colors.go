@@ -1,6 +1,7 @@
 package MasterMind
 
 import (
+	"fmt"
 	"math/rand"
 	"time"
 )
@@ -16,6 +17,7 @@ func Comb() []string {
 	tab := []string{}
 	for i := 0; i < 4; i++ {
 		tab = append(tab,pickColor())
+		fmt.Println(tab)
 	}
 	return tab
 }
