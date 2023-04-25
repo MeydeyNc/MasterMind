@@ -12,7 +12,7 @@ func pickColor() string { // pick a random color in the list "colors"
 	return colors[rand.Intn(len(colors))]
 }
 
-func comb() []string {
+func Comb() []string {
 	tab := []string{}
 	for i := 0; i < 4; i++ {
 		tab = append(tab,pickColor())
