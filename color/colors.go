@@ -15,7 +15,7 @@ func pickColor() string { // pick a random color in the list "colors"
 func Comb() []string {
 	tab := []string{}
 	for i := 0; i < 4; i++ {
-		tab = append(tab,pickColor())
+		tab = append(tab, pickColor())
 	}
 	return tab
 }
